@@ -1,360 +1,526 @@
-# Ophir Product Thesis v2
+# Ophir Product Thesis v2.1
 
 > **Date:** 2026-08-30 17:15 CEST  
-> **Status:** Canonical strategic synthesis after Research Phase 1  
-> **Supersedes as product framing:** tokenized-cash-first framing in early founder/business-plan drafts. Those documents remain historical inputs until updated.
+> **Status:** Canonical strategic thesis  
+> **Baseline:** Ophir exists to help European companies realize the economic benefits of regulated tokenization. Every use case must still prove a real business case.
 
 ## 1. One sentence
 
-> **Ophir is the intelligence layer that tells a company the highest-value legal use of its next euro of capital.**
+> **Ophir helps companies capture the economic benefits of tokenized finance without having to become crypto companies.**
 
-## 2. What changed during Research Phase 1
+The product combines treasury intelligence, Belgian/EU regulatory-tax-accounting translation, and a software control layer over conventional and tokenized financial infrastructure.
 
-Ophir began with a tokenized-treasury hypothesis: connect Belgian corporate bank/accounting data to stablecoins, tokenized money-market funds and later tokenized bonds while hiding wallets/chains from the customer.
+## 2. Strategic baseline: catch the tokenization wave
 
-Research did not invalidate tokenized finance, but it changed its position in the product.
+Tokenization is not an optional side feature or merely metadata on otherwise conventional treasury software. It is Ophir's **strategic technological bet and market-selection thesis**.
 
-Key findings:
+Ophir is being built on the belief that increasingly important parts of regulated finance will become digitally native, tokenized, programmable and API-accessible, including potentially:
 
-1. Tokenized MMFs do not inherently create yield alpha; the underlying instrument creates the return.
-2. Belgian tax/legal wrapper effects can dominate modest headline-yield differences over short horizons.
-3. Daily liquidity is valuable, but a few dozen basis points on €0.5m–€2m often creates only modest annual customer value.
-4. Tokenization can create operational advantages — settlement, programmability, collateral mobility, machine access — but those benefits must be measured rather than assumed.
-5. Much larger corporate treasury value pools exist in debt/cash overlap, receivables/working capital, supplier-payment economics and FX/netting.
-6. The same bank/ERP/entity/rules architecture can analyze all of these opportunities.
-
-Therefore:
-
-> **Tokenized finance becomes an instrument/rail inside Ophir, not Ophir's reason for existing.**
-
-## 3. Core problem
-
-Corporate capital is fragmented across:
-
-- bank accounts;
-- legal entities;
-- debt facilities;
+- bank deposits;
+- money-market funds;
+- government and corporate bonds;
+- commercial paper;
 - receivables;
-- payables;
+- private credit;
+- collateral;
+- guarantees and trade-finance claims;
+- fund shares and other securities;
+- settlement cash/stablecoins.
+
+Ophir's job is to translate those capabilities into concrete corporate benefits.
+
+Possible benefits include:
+
+- higher effective return from capital being deployable for more hours/days;
+- 24/7 or extended-hours liquidity and settlement;
+- reduced prefunding and cash-in-transit;
+- faster collateral mobility;
+- yield-bearing collateral;
+- programmable/conditional settlement;
+- smaller minimum tickets/fractional access;
+- broader distribution/funding access;
+- lower issuance/administration cost;
+- direct issuance of tokenized debt or other corporate financial products;
+- automated lifecycle/reconciliation;
+- machine-readable ownership and corporate actions;
+- new working-capital markets.
+
+These are hypotheses to measure per use case, not benefits to assume.
+
+## 3. Business-case discipline
+
+The tokenization thesis does **not** mean recommending a tokenized product when a conventional alternative is better.
+
+Research Phase 1 demonstrated why this discipline matters:
+
+1. Tokenized MMFs do not inherently create yield alpha; the underlying instrument drives return.
+2. Belgian tax/legal wrapper effects can overwhelm modest headline-yield differences.
+3. Daily liquidity has economic value, but small basis-point gains may not support a business alone.
+4. Tokenization can create operational alpha through settlement, programmability, collateral mobility and API-native ownership.
+5. Larger treasury value pools also exist in debt/cash, working capital, supplier terms and FX.
+
+Therefore Ophir uses this rule:
+
+> **Tokenization is the strategic baseline; verified customer economics determine the recommendation.**
+
+Ophir must be capable of saying: “the conventional bank product is better today.” That honesty builds the trusted position from which Ophir can move customers onchain when the economics actually improve.
+
+## 4. Two-layer product thesis
+
+### Layer A — Tokenization Opportunity Layer
+
+Continuously identify where regulated tokenization creates a measurable advantage over conventional finance.
+
+For each opportunity compare:
+
+```text
+Conventional baseline
+vs
+Tokenized alternative
+
+Yield / financing cost
+Liquidity hours and settlement
+Fees
+Tax
+Accounting
+Legal wrapper
+Counterparty/custody risk
+Operational workload
+Collateral utility
+Programmability
+Minimum ticket
+Distribution/funding access
+```
+
+Output:
+
+> **Verified Tokenization Benefit: €X/year + operational/risk effects.**
+
+### Layer B — Corporate Capital Intelligence
+
+Understand the company's full treasury context so the tokenization benefit is evaluated correctly:
+
+- bank cash;
+- debt;
+- AP/AR;
+- liquidity forecast;
 - supplier terms;
-- currencies;
+- FX;
 - guarantees/collateral;
-- financial instruments;
-- tax/accounting rules;
-- treasury policies;
-- ERP/project systems.
+- legal entities;
+- tax/accounting;
+- treasury policy.
 
-Finance teams often optimize each domain separately.
+This layer also surfaces valuable conventional opportunities. Those create immediate customer ROI, richer data and distribution while the tokenized market matures.
 
-The economically correct question is cross-domain:
+## 5. The marginal-euro optimizer
 
-> **Given the company's actual liquidity requirements, legal entities, obligations, debt cost, supplier opportunities, receivables, currencies, tax/accounting treatment and risk policy, what is the best use of marginal capital now?**
+Ophir asks:
 
-## 4. The marginal-euro optimizer
+> **What is the highest-value permitted use of the next €1 — including the best regulated tokenized alternatives available today?**
 
-Ophir should construct a transparent opportunity curve for corporate cash.
-
-Illustrative ordering:
+Illustrative opportunity set:
 
 ```text
-Use of marginal €1                         Economic value
-Supplier early-payment discount            12–20%+ implied annual return
-Avoid overdraft                            5–7%
-Repay revolver                             4–5%
-Finance/accelerate receivable              context dependent
-FX/netting opportunity                     measurable bp saving
-Maintain required liquidity                mandatory constraint
-Term deposit                               ~market cash rate
-Daily MMF/FCP                              ~market cash rate, liquid
-Idle current account                       low return
+Supplier early-payment discount
+Avoid overdraft / repay revolver
+Accelerate/finance receivable
+FX/netting
+Required liquidity buffer
+Tokenized deposit
+Tokenized MMF/FCP
+Conventional MMF/FCP
+Term deposit
+Tokenized government/corporate debt
+Other approved instrument
+Idle bank cash
 ```
 
-The order changes continuously and must be company-specific.
+The optimizer is rail-neutral at decision time but **tokenization-native by design**.
 
-Ophir does not silently reduce risk/liquidity/legal constraints to one opaque score. It shows economics and constraints separately.
+## 6. Tokenization use-case families Ophir should own
 
-## 5. Primary opportunity engines
+### A. Tokenized cash & liquidity
 
-### A. Debt + idle cash
+- regulated tokenized MMFs;
+- tokenized deposits;
+- compliant stablecoin settlement;
+- 24/7 liquidity comparisons;
+- after-tax Belgian instrument selection;
+- automated accounting/tax dossiers.
 
-Detect simultaneous low-yield cash and higher-cost short-term debt.
+Research question: how much value does extended settlement/liquidity create versus conventional daily-liquid cash?
 
-Example screening economics:
+### B. Tokenized collateral
+
+Identify where tokenized regulated assets can remain yield-bearing while serving as accepted collateral.
+
+Potential benefits:
+
+- reduce idle collateral opportunity cost;
+- faster collateral substitution;
+- better intraday liquidity.
+
+Only relevant when the actual bank/counterparty accepts the asset and legal pledge/control structure.
+
+### C. Tokenized corporate issuance
+
+A major long-term Ophir line should be helping companies evaluate and prepare issuance of:
+
+- tokenized bonds;
+- DLT commercial paper;
+- private debt;
+- project/infrastructure debt;
+- other permitted financial claims.
+
+Ophir can provide software + consulting around:
+
+- economic feasibility;
+- structure comparison;
+- provider/venue selection;
+- documentation workflow;
+- investor/distribution requirements;
+- accounting/tax treatment;
+- lifecycle administration;
+- integration into ERP/treasury.
+
+Licensed/regulated partners perform activities requiring authorization. Ophir should deliberately avoid taking regulated roles unless future economics justify a license.
+
+### D. Tokenized receivables / working capital
+
+Compare conventional factoring/SCF with regulated digital/tokenized financing structures.
+
+Tokenization wins only where it improves:
+
+- financing rate;
+- funding access;
+- settlement;
+- transferability;
+- collateralization;
+- administration.
+
+### E. Tokenized FX/payments
+
+Compare conventional correspondent/bank rails with regulated tokenized deposits/stablecoin rails for:
+
+- cross-border settlement;
+- prefunding;
+- settlement windows;
+- atomic payment/FX;
+- all-in cost.
+
+### F. Programmable treasury
+
+Use digitally native rails to prepare conditional/scheduled corporate financial actions while preserving the execution boundary.
+
+The company authorizes; the regulated provider holds/executes the binding instruction.
+
+## 7. Immediate high-value opportunity engines
+
+Research Phase 1 found four strong conventional/cross-rail economic engines. They remain important because they create ROI and provide the context needed to deploy tokenized solutions intelligently.
+
+### Debt + idle cash — `PRIORITY`
+
+Detect simultaneous low-yield cash and higher-cost debt.
+
+### Receivables / DSO / financing — `PRIORITY`
+
+Quantify working-capital delay and compare financing alternatives, including future tokenized receivable markets.
+
+### Dynamic discounting / SCF — `PRIORITY`
+
+Treat early-payment discounts as a competing use of cash; later integrate programmable/tokenized payment and financing rails.
+
+### FX/netting — `PRIORITY` for FX-heavy companies
+
+Reduce gross external flow and measure provider pricing; compare tokenized settlement rails when available.
+
+These modules are not a retreat from tokenization. They create the corporate capital graph through which tokenization becomes economically actionable.
+
+## 8. Business model: software + expert implementation
+
+Ophir should deliberately support a hybrid model.
+
+### Recurring software license
+
+Core scalable product:
+
+- connectors;
+- capital graph;
+- opportunity engine;
+- instrument/rail intelligence;
+- Belgian tax/accounting rules;
+- evidence/audit layer;
+- realized-value ledger;
+- tokenization opportunity monitoring.
+
+Target: high gross-margin recurring B2B license revenue.
+
+### Consulting / implementation
+
+Consulting is acceptable and potentially strategically useful for:
+
+- treasury/tokenization readiness assessments;
+- business-case studies;
+- instrument/provider selection;
+- tokenized issuance feasibility;
+- integration design;
+- accounting/tax mapping;
+- implementation with regulated partners.
+
+Consulting should feed reusable software/rules/provider knowledge rather than become pure bespoke labor.
+
+### Partner economics
+
+Where legally appropriate, investigate referral/implementation/API revenue with licensed providers without compromising independent comparison or entering unnecessary regulated activity.
+
+## 9. One-man-unicorn architecture
+
+A central strategic constraint is extreme organizational leverage.
+
+Ophir should maximize value per human through:
+
+- no custody;
+- no customer balance sheet;
+- no proprietary exchange;
+- no unnecessary payment execution;
+- no autonomous discretionary investment management;
+- licensed providers for regulated execution/issuance/custody;
+- API-first integrations;
+- deterministic compliance/rules engine;
+- AI-assisted research, development, support and implementation;
+- reusable instrument/provider dossiers;
+- highly automated evidence/accounting workflows.
+
+This architecture is intended to keep regulatory, capital, operational and headcount burden far below that of becoming a bank/CASP/broker/custodian.
+
+**Important:** “no MiCA license required” or any other licensing conclusion must remain feature-specific and professionally validated. The strategic objective is to remain outside unnecessary licensing perimeters, not to assume blanket exemption.
+
+## 10. Hard execution boundary
+
+> **Ophir observes, calculates, compares, explains, prepares and documents. The authorized company user decides. The bank or regulated provider executes.**
+
+Ophir v1 does not:
+
+- hold customer money;
+- custody private keys/assets;
+- operate an exchange;
+- autonomously trade/invest;
+- exercise discretionary portfolio management;
+- become a single point of failure for critical payments.
+
+Where a provider supports scheduled execution, the company can authorize the provider-held instruction in advance. Once accepted by the provider, Ophir is not required at execution time.
+
+## 11. Regulatory strategy
+
+Belgian/EU complexity is part of the opportunity.
+
+Ophir should build a translation layer across:
 
 ```text
-€3m actionable overlap
-Debt cost: 4.0%
-Cash yield: 0.3%
-Gross spread: 3.7%
-Annual opportunity: €111k
+Corporate use case
+Tokenized instrument/rail
+Legal classification
+MiCA / MiFID / PSD / DLT / fund rules as applicable
+Belgian tax
+Belgian accounting
+Provider permissions
+Corporate policy
 ```
 
-For multi-entity groups, apparent consolidated overlap is not automatically actionable. Entity, covenant, corporate-law, tax and transfer-pricing constraints must be applied first.
+This complexity can become a moat because ordinary corporate finance teams should not need to understand it themselves.
 
-**Status:** `PRIORITY CANDIDATE`.
+Every feature is classified:
 
-### B. Receivables / DSO / financing
+- `GREEN` — software/information/preparation;
+- `AMBER` — legal review and/or licensed partner required;
+- `RED` — regulated role Ophir deliberately avoids initially.
 
-Connect project/AR lifecycle to marginal funding cost.
-
-At €100m revenue:
-
-```text
-10 avoidable DSO days = €2.74m working capital
-At 5% marginal funding cost ≈ €137k/year
-```
-
-Ophir should distinguish operational delay, contractual delay, dispute, retention and financeable approved receivables.
-
-**Status:** `PRIORITY CANDIDATE`.
-
-### C. Dynamic discounting / supply-chain finance
-
-Treat optional supplier early-payment discounts as a use of corporate capital.
-
-A 1% discount for payment 30 days early implies roughly a 12% simple annualized return on the accelerated cash; 2% can imply ~25%.
-
-Ophir compares the discount with debt repayment, liquidity requirements and financial investments.
-
-**Status:** `PRIORITY CANDIDATE` where supplier spend/adoption is material.
-
-### D. FX exposure + netting
-
-Aggregate AP/AR/cash/forwards across entities and measure actual provider spread.
+## 12. Product architecture
 
 ```text
-€25m annual FX flow × 40 bp avoidable cost = €100k/year
-€100m × 10 bp = €100k/year
-```
-
-Natural netting can reduce external conversion volume before pricing optimization.
-
-**Status:** `PRIORITY` for FX-heavy companies; secondary for domestic-EUR companies.
-
-## 6. Secondary / supporting modules
-
-### Guarantees & collateral
-
-Potential construction-native wedge: connect contractual/project milestones to guarantee reductions/releases, facility capacity and collateral opportunity cost.
-
-**Status:** secondary / validate with real guarantee portfolios.
-
-### Cash yield / deposits / MMFs / tokenized instruments
-
-Still useful as a destination for genuinely deployable cash, but not sufficient as the core product thesis.
-
-Ophir compares like-for-like liquidity and after-tax economics.
-
-**Status:** secondary module / instrument layer.
-
-### Treasury operations & compliance
-
-Automation of reconciliation, tax/accounting evidence, policy checks, intercompany administration and audit support may create meaningful productivity value.
-
-Its larger strategic role is horizontal: make every optimization administratively usable and create switching cost/moat.
-
-**Status:** core platform capability; secondary standalone wedge.
-
-## 7. Product architecture
-
-```text
-BANKS / ERP / AP / AR / PROJECTS / DEBT / FX / DOCUMENTS
+BANKS / ERP / AP / AR / PROJECTS / DEBT / FX
+TOKENIZED PROVIDERS / CUSTODIANS / ISSUERS / CHAINS
                          │
                          ▼
               NORMALIZED CAPITAL GRAPH
                          │
-             ┌───────────┼────────────┐
-             ▼           ▼            ▼
-        Forecast      Rules       Opportunity
-        & liquidity   engine      engines
-             │           │            │
-             └───────────┼────────────┘
+        ┌────────────────┼────────────────┐
+        ▼                ▼                ▼
+  Forecast &        Regulatory /      Instrument &
+  liquidity         tax/accounting     rail graph
+        │                │                │
+        └────────────────┼────────────────┘
                          ▼
-               MARGINAL € OPTIMIZER
+              OPPORTUNITY ENGINES
                          │
                          ▼
-                CFO DECISION VIEW
-                         │
-       ┌─────────────────┴─────────────────┐
-       ▼                                   ▼
-Instructions / evidence             Provider deep link
-       │                                   │
-       └──────── COMPANY EXECUTES ─────────┘
+              MARGINAL € OPTIMIZER
                          │
                          ▼
-               OPHIR OBSERVES RESULT
+           TOKENIZATION BENEFIT VIEW
                          │
                          ▼
-          RECONCILIATION + ACCOUNTING/TAX
+                 CFO DECISION
                          │
                          ▼
-                REALIZED VALUE LEDGER
+          LICENSED PROVIDER EXECUTES
+                         │
+                         ▼
+       RECONCILIATION + EVIDENCE + VALUE
 ```
 
-## 8. Hard execution boundary
+## 13. Realized Value Ledger
 
-The product invariant is:
-
-> **Ophir observes, calculates, compares, explains, prepares and documents. The authorized company user decides. The bank or regulated provider executes.**
-
-Ophir v1:
-
-- does not hold customer money;
-- does not custody keys/assets;
-- does not autonomously trade/invest;
-- does not become discretionary treasury manager;
-- does not become a single point of failure for critical payments.
-
-A provider may eventually support a scheduled instruction authorized in advance by the company. Once the provider accepts that binding instruction, Ophir must not be required for execution to occur.
-
-## 9. Legal / tax / accounting gate
-
-Every opportunity passes through:
-
-1. ownership — whose asset/obligation is it?
-2. permitted use — can it legally be moved, invested, netted, pledged or accelerated?
-3. regulatory perimeter — what may Ophir do?
-4. tax — Belgian consequences;
-5. accounting — Belgian GAAP/IFRS consequences;
-6. operational safety — liquidity, settlement, cutoffs, fallback;
-7. economics — only then show realizable Net Treasury Benefit.
-
-Research is not a production rule. Validation statuses remain explicit.
-
-## 10. Role of tokenization
-
-Tokenization is treated as a capability dimension:
+Ophir must prove both conventional and tokenization-created value.
 
 ```text
-Instrument / rail
-├── economics
-├── liquidity
-├── risk
-├── tax
-├── accounting
-├── settlement
-├── programmability
-├── API access
-└── collateral utility
-```
-
-Tokenized deposits, MMFs, bonds, receivables or collateral should win only when their total outcome is superior.
-
-The user should not need to understand chains/wallets unless legally/operationally necessary.
-
-## 11. Realized Value Ledger
-
-Ophir's commercial proof should be measurable:
-
-```text
-Opportunity identified
-Expected annual value
-Constraints checked
+Opportunity
+Conventional baseline
+Tokenized alternative
+Expected € benefit
+Liquidity/operational benefit
+Legal/tax confidence
 Company decision
-External execution observed
-Actual balance/flow change
-Tax/fees
+Provider execution observed
+Actual outcome
 Realized value
-Accounting/evidence complete
 ```
 
-Dashboard concept:
+This creates the dataset that can eventually answer:
 
-```text
-Ophir cost YTD                 €18,000
-Verified value created YTD    €247,000
-ROI                             13.7×
-```
+> **Where does tokenization actually create value for European corporates?**
 
-This can support value-based pricing and customer retention.
+That dataset itself can become strategically valuable.
 
-## 12. Initial customer hypothesis v2
+## 14. Initial customer / GTM
 
-The original €5m–€100m revenue SME hypothesis may be too small for the strongest modules.
+Start in Belgium precisely because it is difficult.
 
-Research Phase 1 suggests prioritizing companies with **treasury complexity and capital scale**, not revenue alone.
+Ideal early customers/design partners have:
 
-Potential qualification signals:
+- meaningful treasury balances/flows;
+- multiple banks/entities;
+- appetite for innovation;
+- finance leadership willing to test regulated tokenized products;
+- enough complexity to create measurable value;
+- no desire to build blockchain/regulatory expertise internally.
 
-- multiple legal entities;
-- multiple banks/accounts;
-- simultaneous cash and short-term debt;
-- €50m+ supplier spend;
-- €100m+ revenue with meaningful receivables;
-- material non-EUR flows;
-- significant guarantees/collateral;
-- no fully optimized enterprise TMS/treasury function.
+Potential verticals:
 
-Likely beachhead: Belgian lower-mid-market to mid-market groups, with construction/project businesses as a useful design vertical but not necessarily the only market.
+- construction/project groups;
+- staffing/social-secretariat ecosystems;
+- industrial/import-export companies;
+- corporate groups with centralized treasury;
+- fintech-adjacent corporates;
+- later issuers seeking tokenized debt/financial products.
 
-## 13. Moat v2
+## 15. MVP direction
 
-The moat is not blockchain access.
+The MVP should preserve the original architecture while making the value proposition sharper.
 
-Candidate moat:
+### Core
 
-- normalized multi-entity capital graph;
-- integrations;
-- company-specific liquidity/treasury context;
-- effective-dated Belgian tax/accounting/legal rules;
-- opportunity history;
-- realized-value dataset;
-- provider pricing/outcome data;
-- explainable decision engine;
-- audit/evidence graph;
-- trust.
-
-AI is leverage over this graph, not the authoritative financial rule engine.
-
-## 14. MVP direction
-
-Do not build the full operating system first.
-
-Candidate MVP:
-
-1. connect bank/accounting data;
-2. legal-entity model;
-3. cash/forecast view;
-4. debt/facility register;
-5. detect same-entity debt/cash overlap;
-6. calculate explainable opportunity;
-7. optionally ingest AP/AR to add supplier/receivable opportunities;
-8. prepare action package;
-9. observe execution afterward;
+1. bank/accounting connectors;
+2. legal-entity/capital graph;
+3. liquidity forecast;
+4. opportunity engine;
+5. instrument/rail graph containing conventional **and tokenized regulated alternatives**;
+6. Belgian tax/accounting/regulatory treatment;
+7. transparent comparison;
+8. provider handoff;
+9. reconciliation/evidence;
 10. realized-value ledger.
 
-This should be validated with real company data before expanding instrument/tokenization breadth.
+### Initial tokenization-native deliverable
 
-## 15. Research Phase 2
+Every design partner should receive a **Tokenization Opportunity Report**:
 
-1. 10–20 CFO/treasurer interviews focused on measurable € leakage.
-2. Obtain anonymized bank/accounting/debt/AP/AR samples from design partners.
-3. Measure actual cash/debt overlap.
-4. Measure actionable DSO delay.
-5. Measure supplier-discount availability.
-6. Measure actual FX spreads/netting potential.
-7. Benchmark existing TMS/ERP/working-capital tools against the cross-domain optimizer thesis.
-8. Rebuild ICP/pricing from observed customer value.
-9. Update technical/domain model for capital/opportunity engines.
-10. Specialist Belgian legal/tax/accounting validation for the first selected MVP opportunity.
+```text
+Current treasury state
+Tokenization-ready use cases
+Available regulated providers/instruments
+Conventional baseline
+Tokenized alternative
+Expected financial benefit
+Liquidity/settlement benefit
+Tax/accounting impact
+Regulatory path
+Implementation effort
+Recommendation: NOW / PILOT / WATCH / NO BENEFIT
+```
 
-## 16. Kill criteria
+This can begin as consulting powered by Ophir software and evolve into recurring monitoring/licensing.
 
-Reconsider/pivot if:
+## 16. Research agenda
 
-- well-run target companies already capture nearly all measurable opportunities;
-- required data cannot be obtained reliably;
-- entity/legal/tax constraints make most apparent value non-actionable;
-- incumbents solve the cross-domain problem at acceptable cost for the target segment;
-- implementation/integration cost destroys one-founder economics;
-- verified customer value is consistently below a viable SaaS ACV multiple.
+Research Phase 2 has two parallel tracks.
 
-## 17. Long-term vision
+### Track 1 — customer economics
 
-The old vision of a financial control plane remains directionally valid, but autonomy is not the near-term thesis.
+- validate debt/cash, DSO, supplier discounts and FX opportunities with real corporate data;
+- establish willingness-to-pay and license economics;
+- build realized-value case studies.
 
-The long-term system understands every economically relevant corporate capital claim and obligation and continuously surfaces the highest-value permitted decisions.
+### Track 2 — tokenization frontier
 
-Execution can remain with regulated financial infrastructure.
+Continuously map regulated European developments in:
 
-> **Ophir makes corporate capital legible, comparable and economically actionable.**
+- tokenized deposits;
+- MMFs;
+- government/corporate bonds;
+- DLT commercial paper;
+- collateral;
+- receivables/SCF;
+- settlement/stablecoins;
+- corporate issuance platforms;
+- relevant APIs and regulated providers.
+
+For every new capability ask:
+
+> **What corporate problem does this solve better today, in euros and operational terms?**
+
+## 17. Moat
+
+The moat is the combination of:
+
+- tokenization-native provider/instrument graph;
+- Belgian/EU regulatory-tax-accounting translation;
+- corporate capital graph;
+- real customer treasury context;
+- integrations;
+- realized-value dataset;
+- provider outcome/pricing data;
+- evidence/audit graph;
+- trust;
+- ability to implement with very low organizational overhead.
+
+## 18. Kill criteria
+
+Do not abandon tokenization merely because early products are economically weak; that is expected in an emerging market.
+
+But do kill individual use cases when:
+
+- conventional finance is clearly superior;
+- regulatory cost destroys the benefit;
+- provider access is impractical;
+- accounting/tax friction dominates;
+- customer value is too small.
+
+The company-level thesis should be reconsidered only if regulated tokenization fails to develop meaningful corporate advantages over a sufficiently long strategic horizon.
+
+## 19. Long-term vision
+
+Ophir becomes the trusted interface through which European companies adopt tokenized finance.
+
+A CFO should not need to understand chains, wallets, smart contracts or the difference between legal wrappers to capture the benefits.
+
+Ophir should be able to say:
+
+> “Here is what tokenization can do for your company today. Here is the exact euro benefit. Here are the risks, tax and accounting consequences. Here is the regulated provider that can execute it. Here is the implementation package.”
+
+And eventually:
+
+> “Here is how your company can issue, finance, invest and collateralize on digitally native regulated markets while your existing finance systems continue to work normally.”
+
+**That is the blue ocean Ophir is built to capture.**
