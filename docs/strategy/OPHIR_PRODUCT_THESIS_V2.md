@@ -1,6 +1,7 @@
 # Ophir Product Thesis v2.1
 
-> **Date:** 2026-08-30 17:15 CEST  
+> **Created:** 2026-08-30 17:15 CEST  
+> **Last updated:** 2026-09-28 21:46 CEST  
 > **Status:** Canonical strategic thesis  
 > **Baseline:** Ophir exists to help European companies realize the economic benefits of regulated tokenization. Every use case must still prove a real business case.
 
@@ -509,7 +510,17 @@ But do kill individual use cases when:
 
 The company-level thesis should be reconsidered only if regulated tokenization fails to develop meaningful corporate advantages over a sufficiently long strategic horizon.
 
-## 19. Long-term vision
+## 19. Infrastructure strategy — build above the rails
+
+Ophir should not compete with institutions building tokenized market infrastructure. It should integrate and abstract them: regulated markets/tokenization platforms, custodians, settlement-money providers, asset managers, interoperability infrastructure such as Chainlink CCIP, and public/institutional blockchain networks.
+
+> **Let infrastructure providers build the rails. Ophir owns the corporate adoption, business-case and translation layer above them.**
+
+The September 2026 CCIP 2.0 ecosystem announcement is a useful market signal because it brings together banks, financial institutions, regulated digital-asset platforms/custodians, cloud/operators, verifiers and many blockchain networks around institutional cross-chain tokenized assets. This does not prove an Ophir business case; it strengthens the infrastructure assumption behind Ophir.
+
+Ophir's provider architecture must remain modular. No single chain, custodian, issuer, interoperability protocol or tokenized fund should become a hard dependency. The provider graph should track regulated role/jurisdiction, instruments, currencies, networks, custody, settlement assets, interoperability, APIs, corporate eligibility, tax/accounting implications, commercial terms and evidence confidence.
+
+## 20. Long-term vision
 
 Ophir becomes the trusted interface through which European companies adopt tokenized finance.
 
