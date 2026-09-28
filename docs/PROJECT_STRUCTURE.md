@@ -1,6 +1,7 @@
 # Ophir Project Structure
 
 > **Created:** 2026-08-28 23:12 CEST  
+> **Last updated:** 2026-09-28 21:46 CEST  
 > **Status:** Living index and documentation protocol  
 > **Repository:** `rupertreven/ophir`  
 > **Working branch:** `docs/initial-business-plan`
@@ -49,7 +50,13 @@ Use at least:
 
 Tax/legal/accounting calculations shown as filing-grade must meet the validation level defined by the relevant product rule.
 
-## 3. Repository structure
+## 3. Canonical strategic baseline
+
+The current canonical thesis is `docs/strategy/OPHIR_PRODUCT_THESIS_V2.md` (v2.1+): Ophir helps European companies realize measurable benefits from regulated tokenization while using conventional finance as the honest baseline. The core product concept is `docs/product/TOKENIZATION_OPPORTUNITY_ENGINE_V1.md`.
+
+Tokenization is the strategic market bet; business-case discipline remains mandatory. Infrastructure providers (regulated venues, custodians, issuers, settlement providers, interoperability protocols and chains) are generally partner/rail layers below Ophir rather than the product layer Ophir intends to replace.
+
+## 3A. Repository structure
 
 ```text
 README.md
@@ -175,9 +182,9 @@ Key current insight:
 
 > **Tokenization is not automatically yield alpha. Wrapper/instrument selection can create tax/yield alpha; tokenization can create operational alpha; Ophir aims to create intelligence/compliance alpha.**
 
-## 9. Current product thesis
+## 9. Current product thesis (updated 2026-09-28)
 
-Ophir should be rail-neutral.
+Ophir is **tokenization-native but economically honest**. It exists to help companies capture the benefits of regulated tokenized finance, while comparing every opportunity against the best conventional baseline.
 
 It should answer:
 
@@ -187,14 +194,14 @@ The product should be able to conclude that keeping cash in a bank is optimal.
 
 ## 10. Current highest-priority research
 
-1. Find Belgian-tax-efficient EUR short-term regulated fund wrappers, especially FCP/contractual or equivalent structures.
-2. Validate exact TOB treatment by ISIN/share class and transaction type.
-3. Validate TACT applicability from actual custody/account structures.
-4. Validate corporate-income-tax and withholding mechanics.
-5. Define Belgian GAAP/MAR treatment per economic event.
-6. Compare real negotiated Belgian corporate deposit quotes against fund alternatives.
-7. Compare traditional versus tokenized access to the same fund to isolate operational alpha.
-8. Quantify the value of accounting/tax/document automation separately from investment yield.
+1. Validate yield-bearing tokenized collateral with real EU/Belgian-accessible providers and actual bank/counterparty acceptance.
+2. Quantify a real €50m tokenized bond / DLT commercial-paper issuance versus conventional funding.
+3. Quantify tokenized FX/payment prefunding and cash-in-transit savings.
+4. Find live regulated tokenized receivables / SCF offerings accessible to EU corporates.
+5. Keep tokenized MMFs/Spiko as the simplest reference integration, with honest Belgian after-tax economics.
+6. Build the provider/infrastructure graph and integration matrix (Archax, Spiko, regulated settlement/deposit providers, custodians, issuance venues, interoperability layers).
+7. Preserve the successful €100k opportunity engines (debt/cash, receivables, dynamic discounting, FX) as corporate-context modules and potential landing zones for tokenized rails.
+8. Validate every legal/licensing conclusion feature-by-feature; do not assume blanket MiCA/MiFID/PSD exemption.
 
 ## 11. Planned future documents
 
